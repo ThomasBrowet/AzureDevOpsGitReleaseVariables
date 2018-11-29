@@ -1,0 +1,7 @@
+{
+  "AppInsightsInstrumentationKey": "valueAppInsight",
+  "AuthenticationClientId": "valueClientId",
+  "AuthenticationClientSecret": "valueSecret",
+  "ConnectionStringBtpDbContext": "valueCS",
+  "TenantID": "ValueTenantID"
+}

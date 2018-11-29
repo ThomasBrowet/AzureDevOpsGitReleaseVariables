@@ -1,0 +1,42 @@
+{
+    "id": "e7ca9c98-3a55-49b2-b947-2415a1e3dd4f",
+    "name": "GitReleaseVariables",
+    "friendlyName": "Git release variables",
+    "description": "Inject Build/Release variables from a Json file stored in a git Repo.",
+    "author": "Thomas Browet",  
+    "category": "Utility",
+    "visibility": [
+      "Build",
+      "Release"
+    ],
+    "demands": [],
+    "version": {
+      "Major": "1",
+      "Minor": "0", 
+      "Patch": "4"
+    },
+    "minimumAgentVersion": "1.95.0",
+    "instanceNameFormat": "Git release variables",
+    "groups": [
+        {
+            "name": "advanced",
+            "displayName": "Advanced",
+            "isExpanded": false
+        }
+    ],
+    "inputs": [
+        {
+            "name": "jsonFile",
+            "type": "string",
+            "label": "Json File (full path)",
+            "required": true,
+            "helpMarkDown": "The location to load the JSON file from."
+        }
+    ],
+    "execution": {
+      "Node": {
+        "target": "dist\\GitReleaseVariables.js",
+        "argumentFormat": ""
+      }
+    }
+  }

@@ -1,0 +1,47 @@
+{
+    "manifestVersion": 1,
+    "id": "GitReleaseVariables",
+    "name": "Git release variables",
+    "version": "1.0.4",
+    
+    "publisher": "ThomasBrowet",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "icons": {
+        "default": "images/icon.png"
+    },
+    "description": "Inject Build/Release variables from a Json file stored in a git Repo.",
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "files": [
+        {
+            "path": "GitReleaseVariables"
+        } 
+    ],
+    "contributions": [
+        {
+            "id": "vsts-release-web-test",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "GitReleaseVariables"
+            }
+        }
+    ],
+    "content": {
+        "details": {
+            "path": "README.md"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/ThomasBrowet/AzureDevOpsGitReleaseVariables"
+    },
+    "public": false
+}
