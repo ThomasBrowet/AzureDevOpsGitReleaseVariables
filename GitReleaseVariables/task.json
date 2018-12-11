@@ -13,7 +13,7 @@
     "version": {
       "Major": "1",
       "Minor": "0", 
-      "Patch": "4"
+      "Patch": "8"
     },
     "minimumAgentVersion": "1.95.0",
     "instanceNameFormat": "Git release variables",
@@ -35,7 +35,7 @@
     ],
     "execution": {
       "Node": {
-        "target": "dist\\GitReleaseVariables.js",
+        "target": "dist//GitReleaseVariables.js",
         "argumentFormat": ""
       }
     }

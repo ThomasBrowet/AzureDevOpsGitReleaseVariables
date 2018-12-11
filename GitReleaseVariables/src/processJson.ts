@@ -6,7 +6,7 @@ export async function ProcessKeys(jsonData: any): Promise<boolean> {
             if (jsonData.hasOwnProperty(key)) {
                 var value = jsonData[key];
                 console.log("Setting variable : " + key);
-                tl.setVariable(key, value, false);
+                tl.setVariable(key, value, true);
             }
         }
     });

@@ -1,6 +1,6 @@
 {
   "name": "vsts-release-web-test",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "description": "This TFS & VSTS Release task can be used to create build variables from a JSON file ",
   "main": "dist/GitReleaseVariables.js",
   "scripts": {
